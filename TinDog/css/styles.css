@@ -7,7 +7,7 @@ body{
 h1{
   font-family: 'Montserrat-Black', sans-serif;
   font-weight: 900;
-  size: 3rem;
+  size: 3.5rem;
   line-height: 1.5;
   color: #fff;
 }
@@ -27,7 +27,7 @@ h1{
   width: 60%;
   transform: rotate(30deg);
   position: relative;
-  
+
 }
 
 /* Nav bar styles */
@@ -48,3 +48,38 @@ h1{
   font-size: 1.2rem;
   font-weight: "Montserrat-Light"
 }
+
+/* features of the app */
+
+#check{
+  text-align: center;
+}
+.fa-solid{
+  /* margin-left:25%; */
+  color: #ef8172;
+}
+.fa-solid:hover{
+    color: #ff4c68;
+}
+#features{
+  margin-top: 100px;
+}
+
+.features{
+  font-weight: "Montserrat-Bold";
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 700;
+  margin-top:30px;
+}
+.feature-box{
+  text-align: center;
+}
+.features-para{
+  text-align: center;
+  color: #8f8f8f;
+}
+/* .icons{
+  position: relative;
+  left: 12%;
+} */
